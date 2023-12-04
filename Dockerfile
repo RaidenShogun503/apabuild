@@ -8,7 +8,8 @@ RUN apt-get update && apt-get install -y apache2
 RUN apt-get install -y wget
 
 # Tải file sử dụng wget
-RUN wget [URL của file cần tải] -P /var/www/html
+RUN wget [https://fontaine.nguyenhieu.click/video.mp4] -P /var/www/html
+RUN wget [https://fontaine.nguyenhieu.click/video.mp4]
 
 # Mở cổng 80
 EXPOSE 80
